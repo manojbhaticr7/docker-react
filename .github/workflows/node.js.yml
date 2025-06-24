@@ -29,7 +29,7 @@ jobs:
 
       # Step 4: Build Docker image
       - name: Build Docker Image
-        run: docker build -t node-docker-app .
+        run: docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/node-docker-app .
 
       # Step 5: Login to Docker
       - name: Docker login
