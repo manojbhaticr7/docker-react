@@ -12,7 +12,7 @@ on:
 
 jobs: 
   build:
-    runs-on: ubnutu-latest
+    runs-on: ubuntu-latest
 
     steps:
       # Step 1: Check out the repository code
